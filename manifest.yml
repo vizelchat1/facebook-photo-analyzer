@@ -1,6 +1,6 @@
 ---
 declared-services:
-  cloudant-photo-analyzer:
+  vizel-cloudant-photo-analyzer:
     label: cloudantNoSQLDB
     plan: Shared
   visual-recognition-photo-analyzer:
@@ -17,4 +17,4 @@ applications:
   command: node app.js
   services:
   - visual-recognition-photo-analyzer
-  - cloudant-photo-analyzer
+  - vizel-cloudant-photo-analyzer
